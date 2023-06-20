@@ -1,13 +1,17 @@
-* {
+/* this is a Universal selector which means it becomes
+the default stylization of the content */
+*  {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* this stylizes content within the body tag */
 body {
     background-color: #d9dcd6;
 }
 
+/* this styles the "header" class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,19 @@ body {
     color: #ffffff;
 }
 
+/* this stylizes any content within h1 tags in the "header" class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* this styles any content of the "seo" class within a
+h1 tag within the "header" class */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* this stylizes any content within nav tags in the "header" clas */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +40,29 @@ body {
     font-size: 20px;
 }
 
+/* this styles any content within the unordered list tags within the nav tags within the "header" class */
 .header nav ul {
     list-style-type: none;
 }
 
+/* this styles an list items within an unordered list within the nav tags in the "header" class */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* this styles any content within anchor tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* this styles any content within paragraph tags */
 p {
     font-size: 16px;
 }
 
+/* this styles any content of the "hero" class */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +72,26 @@ p {
     background-position: center;
 }
 
+/* this styles any content of the "float-left" class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* this styles any content of the "float-right" class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* this styles any content of the "content" class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* this styles any content of the "benefits" class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,60 +103,76 @@ p {
     background-color: #2589bd;
 }
 
+/* this styles any content of the "benefit-lead" class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this styles any content of the "benefit-brand" class */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this styles any content of the "benefit-cost" class */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this styles any content within a h3 tag of the "benefit-lead" class */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this styles any content within a h3 tag of the "benefit-brand" class */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this styles any content within a h3 tag of the "benefit-cost" class */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this styles any content within an image tag of the "benefit-lead" class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* this styles any content within an image tag of the "benefit-brand" class */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* this styles any content within an image tag of the "benefit-cost" class */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* see above comments to understand how css selectors work */
 .search-engine-optimization {
-    margin-bottom: 20px;
+    /* margin and its offshoot properties such as margin-top or margin-left allow one to set the thickness of margins either absolutely or relatively */
+    margin-bottom: 20px; 
+   /* the padding property allows one to set the thickness of the padding either absolutely or relatively */
     padding: 50px;
+    /* the height property allows one to set the height of an element either absolutely or relatively */
     height: 300px;
+    /* font-family allows one to stylize the content text with different typefaces */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* the background-color property allows one to select a background color for content */
     background-color: #0072bb;
+    /* the color property allows one to stylize the content text by changing the text color */
     color: #ffffff;
 }
 
@@ -162,6 +195,7 @@ p {
 }
 
 .search-engine-optimization img {
+    /* the max-height property allows authors to constrain content to a certain range */
     max-height: 200px;
 }
 
