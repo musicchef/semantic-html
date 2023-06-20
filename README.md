@@ -1,4 +1,4 @@
-# semantic-html
+# Semantic HTML
 ## User Story
 
 ```
@@ -22,5 +22,6 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
+## Deployed Website Link
 
-
+https://musicchef.github.io/semantic-html/
